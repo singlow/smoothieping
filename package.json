@@ -1,0 +1,25 @@
+{
+  "name": "smoothie-ping",
+  "keywords": [
+    "charts",
+    "monitoring"
+  ],
+  "version": "0.1.1",
+  "homepage": "http://iakob.com/smoothie-ping",
+  "author": "Jacob Williams <gospelbass@gmail.com> (http://iakob.com)",
+  "repository": {
+    "type": "git",
+    "uri": "http://github.com/singlow/smoothie-ping",
+  },
+  "dependencies": {
+    "flatiron": "*",
+    "union": "*",
+    "plates": "*"
+  },
+  "licenses": [
+    {
+      "type": "MIT +no-false-attribs",
+      "url": "http://github.com/singlow/smoothie-ping/raw/master/LICENSE"
+    }
+  ]
+}
