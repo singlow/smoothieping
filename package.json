@@ -1,20 +1,21 @@
 {
-  "name": "smoothie-ping",
+  "name": "smoothieping",
   "keywords": [
     "charts",
     "monitoring"
   ],
   "version": "0.1.1",
-  "homepage": "http://iakob.com/smoothie-ping",
+  "homepage": "http://iakob.com/smoothieping",
   "author": "Jacob Williams <gospelbass@gmail.com> (http://iakob.com)",
   "repository": {
     "type": "git",
-    "uri": "http://github.com/singlow/smoothie-ping",
+    "uri": "http://github.com/singlow/smoothie-ping"
   },
-  "dependencies": {
-    "flatiron": "*",
-    "union": "*",
-    "plates": "*"
+  "dependencies" : {
+    "flatiron" : "*",
+    "union" : "*",
+    "ecstatic" : "*",
+    "caching" : "*"
   },
   "licenses": [
     {
