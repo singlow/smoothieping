@@ -8,6 +8,8 @@ so I built my own.
 
 View [demo][1].
 
+![example chart](http://iakob.com/smoothieping.jpg)
+
 Features
 --------
 - Real time updates
