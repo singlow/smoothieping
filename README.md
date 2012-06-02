@@ -25,6 +25,8 @@ cd smoothieping && npm install
 
 node smoothie-ping.js
 
+Modify public/js/sites.json to include the settings for your NodePing checks.
+
 Visit http://localhost:8080/
 
 [1]:http://iakob.com/smoothieping/demo
