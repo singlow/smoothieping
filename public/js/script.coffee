@@ -1,4 +1,4 @@
-dataurl = "/data"
+dataurl = "data"
 
 # function for generating a rainbow of colors
 colorGen = ->

@@ -1,6 +1,6 @@
 var chartOptions, colorGen, dataurl, displayGraph, lineOptionsHL;
 
-dataurl = "/data";
+dataurl = "data";
 
 colorGen = function() {
   var colors, i, j, _i, _j, _len, _len2, _ref, _ref2;

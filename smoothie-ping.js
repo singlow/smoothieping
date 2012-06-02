@@ -16,7 +16,12 @@ app = new flatiron.App();
 
 app.use(flatiron.plugins.http);
 
-app.http.before = [ecstatic(__dirname + '/public')];
+app.http.before = [
+  ecstatic(__dirname + '/public', {
+    autoIndex: false,
+    cache: 3600
+  })
+];
 
 app.router.get('/data/:id/:count', function(id, count) {
   var _this = this;
