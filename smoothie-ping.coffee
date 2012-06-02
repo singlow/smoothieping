@@ -13,7 +13,7 @@ app.http.before = [
     ecstatic(__dirname + '/public', {autoIndex: false, cache: 3600})
 ]
 
-app.router.get '/data/:id/:count', (id, count)->
+app.router.get 'data/:id/:count', (id, count)->
   cache id+'-'+count, 60*1000, (passalong)->
     api_options = {
       host: 'nodeping.com'

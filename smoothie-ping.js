@@ -23,7 +23,7 @@ app.http.before = [
   })
 ];
 
-app.router.get('/data/:id/:count', function(id, count) {
+app.router.get('data/:id/:count', function(id, count) {
   var _this = this;
   return cache(id + '-' + count, 60 * 1000, function(passalong) {
     var api_options, api_request;
