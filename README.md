@@ -3,7 +3,7 @@ SmoothiePing
 A smoothie chart visualization of NodePing status check run time reports.
 
 As I was tweaking the performance of a bunch of client websites, I wanted to quickly see how they
-were all performing. I signed up for NodePing but I found the dashboard to be a little to boring, 
+were all performing. I signed up for NodePing but I found the dashboard to be a little too boring, 
 so I built my own.
 
 View [demo][1].
