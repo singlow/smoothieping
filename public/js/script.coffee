@@ -98,7 +98,7 @@ displayGraph = (sites)->
       $.get recent, (data)->
         if (data?)
           for item in data
-            if item.m is "Success"
+            if item.su is true
               label.removeClass("down")
             else
               label.addClass("down")
