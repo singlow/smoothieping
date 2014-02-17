@@ -1,5 +1,8 @@
 SmoothiePing
 ------------
+
+> THIS IS OBSOLETE AND DOES NOT WORK WITH CURRENT NODEPING API
+
 A smoothie chart visualization of NodePing status check run time reports.
 
 As I was tweaking the performance of a bunch of client websites, I wanted to quickly see how they
